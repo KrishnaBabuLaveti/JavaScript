@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.single-btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: black;
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    margin-right: 10px;
+}
+
+.symbol {
+    height: 50px;
+    width: 50px;
+}
+
+.result {
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.choice,
+.display {
+    color: white;
+}
+
+.reset-btn {
+    padding: 10px 10px;
+    font-size: 15px;
+}
