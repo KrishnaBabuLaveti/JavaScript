@@ -47,8 +47,8 @@ function PlayerMove(player_choice) {
     localStorage.setItem("score", JSON.stringify(score));
     document.querySelector('.result').innerHTML = result;
     document.querySelector('.choice').innerHTML = `You 
-        <img class="symbol" src="/rock-paper-scissor-game/images/${player_choice}.png" alt="">
-        <img class="symbol" src="/rock-paper-scissor-game/images/${random_choice}.png" alt="">
+        <img class="symbol" src="/images/${player_choice}.png" alt="">
+        <img class="symbol" src="/images/${random_choice}.png" alt="">
         Computer`;
 
     updateScore();
