@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task manager</title>
+</head>
+<body>
+    <p>Todo List Practice 1</p>
+    <input onkeydown=" 
+    if (event.key === 'Enter')  addTask();
+    " class="todo-task" type="text" placeholder="todo name">
+    <button onclick="addTask()">Add</button>
+
+    <div class="display"></div>
+
+    <!-- <p>Todo List Practice 2</p>
+    <input type="text" placeholder="todo name">
+    <button>Add</button> -->
+
+    <script src="/task-manager/task-manager.js"></script>
+</body>
+</html>
